@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+:root {
+    --rose-800: #7a284e;
+    --rose-50: #fff7fb;
+    --stone-900: #312e2c;
+    --stone-600: #5f564d;
+    --stone-150: #e3ddd7;
+    --stone-100: #f3e5d7;
+    --brown-800: #854632;
+    --whote: #ffffff;
+}
