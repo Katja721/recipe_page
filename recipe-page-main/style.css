@@ -15,5 +15,38 @@
     --stone-150: #e3ddd7;
     --stone-100: #f3e5d7;
     --brown-800: #854632;
-    --whote: #ffffff;
+    --white: #ffffff;
+}
+body {
+    background-color: var(--stone-100);
+}
+.box {
+    background-color: var(--white);
+}
+.head_img {
+    width: 50vw;
+}
+.preset-text-1 {
+    font-family: 'Young Serif';
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.preset-text-2 {
+    font-family: 'Young Serif';
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.preset-text-3 {
+    font-family: 'Outfit';
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.preset-text-1 {
+    font-family: 'Outfit';
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
 }
