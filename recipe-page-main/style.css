@@ -54,48 +54,25 @@ body {
 .heading {
     color: var(--stone-900);
 }
-.recipe-description {
-    color: var(--stone-600);
-}
-.time {
-    color: var(--rose-800);
-}
-.time__list__item span {
-    color: var(--stone-600);
-}
-.ingridients__list__item_text {
-    color: var(--stone-600);
-}
-.time__list__item {
-    color: var(--rose-800);
-}
-
-.ingridients__heading {
-    color: var(--brown-800);
-}
-.ingridients__list__item {
-    color: var(--rose-800);
-}
-.ingridients__list__item span {
-    color: var(--stone-600);
-}
-.instructions__heading {
-    color: var(--brown-800);
-}
+.time,
+.time__list__item,
+.ingridients__list__item,
 .instructions__list__item {
     color: var(--rose-800);
 }
-.ingridients__list__item span {
-    color: var(--stone-600);
-}
-.nutrition__heading {
-    color: var(--brown-800);
-}
-.nutrition__paragraph {
-    color: var(--stone-600);
-}
+.recipe-description,
+.time__list__item span,
+.ingridients__list__item_text,
+.ingridients__list__item span,
+.ingridients__list__item span,
+.nutrition__paragraph,
 .nutrition__table_description {
     color: var(--stone-600);
+}
+.ingridients__heading,
+.instructions__heading,
+.nutrition__heading {
+    color: var(--brown-800);
 }
 .nutrition__table_amount {
     color: var(--brown-800);
