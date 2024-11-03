@@ -114,3 +114,50 @@ td {
 .nutrition__table_description {
     padding: 2vh 1vw 2vh 2vw;
 }
+
+/* /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    .box {
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .head_img {
+        border-radius: 0;
+        width: 100vw;
+    }
+    .heading {
+        margin: 5vh 10vw 2vh 10vw;
+        font-size: 2.2rem;
+    }
+    .recipe-description {
+        margin: 5vh 10vw;
+        font-size: 0.95rem;
+    }
+    .time {
+        padding: 1vh 8vw;
+        margin: 0 10vw;
+    }
+    .ingridients,
+    .nutrition,
+    hr,
+    .instructions {
+        margin: 0 10vw;
+    }
+
+    .nutrition__table {
+        margin: 0 10vw;
+        width: 80%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}  */
