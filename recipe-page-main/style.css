@@ -154,7 +154,13 @@ td {
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .box {
+        margin: 12vh 8vw;
+        padding: 6vh 6vw 4vh 6vw;
+        width: 100%;
+    }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {...} */
 /* Large devices (laptops/desktops, 992px and up) */
